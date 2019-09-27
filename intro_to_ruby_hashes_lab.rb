@@ -32,6 +32,7 @@ if hash[key]
 else
   hash[key] = 1
 end
+return hash[key]
 end
 
   # given a hash and a key as parameters, return an updated hash
