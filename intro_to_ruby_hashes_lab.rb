@@ -31,8 +31,8 @@ if hash[key]
   hash[key] = + 1
 else
   hash[key] = 1
+  return hash[key]
 end
-return hash[key]
 end
 
   # given a hash and a key as parameters, return an updated hash
