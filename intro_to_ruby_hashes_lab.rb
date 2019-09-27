@@ -31,9 +31,10 @@ if hash[key]
   hash[key] = + 1
 else
   hash[key] = 1
-  return hash[key]
 end
 end
+
+hash[key]
 
   # given a hash and a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
