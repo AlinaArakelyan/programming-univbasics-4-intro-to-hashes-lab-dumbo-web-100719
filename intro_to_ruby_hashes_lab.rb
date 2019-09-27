@@ -27,14 +27,11 @@ end
 
 
 def update_counting_hash(hash, key)
-  new_hash = []
 if hash[key]
-  hash[key] = + 1
+p  hash[key] = + 1
 else
-  hash[key] = 1
-  new_hash << hash[key]
+  return hash[key] = 1
 end
-return new_hash
 end
 
 
